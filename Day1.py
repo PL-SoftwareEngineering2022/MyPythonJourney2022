@@ -4,7 +4,7 @@
 #Write pseudo code about the program: this is just an outline in a human listing the steps that you should take for your program to run.
 #Write the code: implement the code
 
-# Write a program that collects a passowrd and a username, and checks if that information is correct.
+# 1. Write a program that collects a passowrd and a username, and checks if that information is correct.
 # The program greets you and gives you access into the account.
     #write the pseudo code:
     #ask the user for their name
@@ -20,10 +20,10 @@ if name=="John" and password=="123":
 else: 
     print("Hi, Your username or password is incorrect.")
 
-
-Enter you name: Mark
-Enter your password: 123
-Hi, Your username or password is incorrect.
+#output
+# Enter you name: Mark
+#Enter your password: 123
+#Hi, Your username or password is incorrect. 
 name = input("Enter you name: ")
 password = input("Enter your password: ")
 
@@ -31,13 +31,14 @@ if name=="John" and password=="123":
     print(f"Hi {name}, Welcome to Landmark")
 else: 
     print("Hi, Your username or password is incorrect.")
-    
-Enter you name: John
-Enter your password: 123
-Hi John, Welcome to Landmark
+
+# output  
+#Enter you name: John
+#Enter your password: 123
+#Hi John, Welcome to Landmark
 
 
-# write a program that calculates the area:
+# 2. write a program that calculates the area:
 length = 10
 width = 5
 area = length*width
